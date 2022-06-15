@@ -14,7 +14,7 @@ public class CreateProjectTest {
 	{
 		//Step 1 : Create pre conditions
 		JSONObject jObj=new JSONObject();
-		jObj.put("createdBy","Krish91221");
+		jObj.put("createdBy","Harish");
 		jObj.put("projectName","Bazingaa");
 		jObj.put("status","Created");
 		jObj.put("teamSize", 18);

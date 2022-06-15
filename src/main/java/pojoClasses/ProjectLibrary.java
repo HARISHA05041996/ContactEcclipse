@@ -9,7 +9,7 @@ public class ProjectLibrary {
 	
 	//initialize data memebers using constructor
 	public ProjectLibrary(String createdBy, String projectName, String status, int teamSize) {
-		super();
+	
 		this.createdBy = createdBy;
 		this.projectName = projectName;
 		this.status = status;

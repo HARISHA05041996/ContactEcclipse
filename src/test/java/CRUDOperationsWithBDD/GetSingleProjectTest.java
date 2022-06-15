@@ -1,6 +1,7 @@
 package CRUDOperationsWithBDD;
 
 import org.testng.annotations.Test;
+import static io.restassured.RestAssured.*;
 
 import static io.restassured.RestAssured.*;
 

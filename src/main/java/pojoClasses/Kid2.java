@@ -4,7 +4,7 @@ public class Kid2 {
 	String kid2Name;
 	String kid2Id;
 	public Kid2(String kid2Name, String kid2Id) {
-		super();
+		
 		this.kid2Name = kid2Name;
 		this.kid2Id = kid2Id;
 	}

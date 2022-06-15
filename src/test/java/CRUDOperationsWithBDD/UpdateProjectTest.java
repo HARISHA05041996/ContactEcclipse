@@ -1,6 +1,7 @@
 package CRUDOperationsWithBDD;
 
 import org.json.simple.JSONObject;
+import static io.restassured.RestAssured.*;
 import org.testng.annotations.Test;
 
 import io.restassured.http.ContentType;

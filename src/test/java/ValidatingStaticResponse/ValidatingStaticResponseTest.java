@@ -3,6 +3,8 @@ package ValidatingStaticResponse;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import io.restassured.RestAssured;
+import io.restassured.config.RestAssuredConfig;
 import io.restassured.response.Response;
 
 import static io.restassured.RestAssured.*;
@@ -11,6 +13,7 @@ public class ValidatingStaticResponseTest {
 @Test
 public void validatingStaticResponseTest()
 {
+	
 	baseURI="http://localhost";
 	port=8084;
 	String expData="TY_PROJ_1003";
