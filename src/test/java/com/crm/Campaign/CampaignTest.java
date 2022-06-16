@@ -3,6 +3,8 @@ package com.crm.Campaign;
 import org.testng.annotations.Test;
 
 public class CampaignTest {
+	//Smoke
+	
 	@Test(groups={"SmokeTest"})
 	public void createCampaignTest() {
 		String value = System.getProperty("browser");
