@@ -8,7 +8,7 @@ public class CampaignTest {
 		String value = System.getProperty("browser");
 		System.out.println("Browser:  "+value);
 		System.out.println("execute  createCampaignTest");
-		 
+	//hi	 
 		
 	}
 	@Test(groups={"RegressionTest"})
