@@ -7,8 +7,7 @@ public class CampaignTest {
 	public void createCampaignTest() {
 		String value = System.getProperty("browser");
 		System.out.println("Browser:  "+value);
-		System.out.println("execute  createCampaignTest");
-	//hi	 
+		System.out.println("execute  createCampaignTest");	 
 		
 	}
 	@Test(groups={"RegressionTest"})
@@ -20,5 +19,5 @@ public class CampaignTest {
 		System.out.println("execute  deleteCampaignTest");
 	}
 
-//THIKA AMIKAND CORRECT EDENA NODU
+
 }
