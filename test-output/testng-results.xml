@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
@@ -141,3 +142,37 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-11T11:06:01 IST" name="Default suite" finished-at="2022-05-11T11:06:01 IST" duration-ms="133">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="CampaignTest.createCampaignTest()[pri:0, instance:com.crm.Campaign.CampaignTest@609db43b]" name="createCampaignTest" class="com.crm.Campaign.CampaignTest"/>
+      </group> <!-- SmokeTest -->
+      <group name="RegressionTest">
+        <method signature="CampaignTest.deleteCampaignTest()[pri:0, instance:com.crm.Campaign.CampaignTest@609db43b]" name="deleteCampaignTest" class="com.crm.Campaign.CampaignTest"/>
+        <method signature="CampaignTest.modifyCampaignTest()[pri:0, instance:com.crm.Campaign.CampaignTest@609db43b]" name="modifyCampaignTest" class="com.crm.Campaign.CampaignTest"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test started-at="2022-05-11T11:06:01 IST" name="Default test" finished-at="2022-05-11T11:06:01 IST" duration-ms="133">
+      <class name="com.crm.Campaign.CampaignTest">
+        <test-method signature="createCampaignTest()[pri:0, instance:com.crm.Campaign.CampaignTest@609db43b]" started-at="2022-05-11T11:06:01 IST" name="createCampaignTest" finished-at="2022-05-11T11:06:01 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCampaignTest -->
+        <test-method signature="deleteCampaignTest()[pri:0, instance:com.crm.Campaign.CampaignTest@609db43b]" started-at="2022-05-11T11:06:01 IST" name="deleteCampaignTest" finished-at="2022-05-11T11:06:01 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCampaignTest -->
+        <test-method signature="modifyCampaignTest()[pri:0, instance:com.crm.Campaign.CampaignTest@609db43b]" started-at="2022-05-11T11:06:01 IST" name="modifyCampaignTest" finished-at="2022-05-11T11:06:01 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyCampaignTest -->
+      </class> <!-- com.crm.Campaign.CampaignTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
+>>>>>>> branch 'master' of https://github.com/HARISHA05041996/ContactEcclipse.git

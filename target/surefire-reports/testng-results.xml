@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="100" started-at="2022-05-10T16:01:09 IST" finished-at="2022-05-10T16:01:09 IST">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="CampaignTest.createCampaignTest()[pri:0, instance:com.crm.Campaign.CampaignTest@28d25987]" name="createCampaignTest" class="com.crm.Campaign.CampaignTest"/>
+        <method signature="ContactTest.createCustomerTest()[pri:0, instance:com.crm.practise.ContactTest@4501b7af]" name="createCustomerTest" class="com.crm.practise.ContactTest"/>
+        <method signature="OrganizationTest.createOrgTest()[pri:0, instance:com.crm.practise.OrganizationTest@59fa1d9b]" name="createOrgTest" class="com.crm.practise.OrganizationTest"/>
+      </group> <!-- SmokeTest -->
+      <group name="RegressionTest">
+        <method signature="CampaignTest.deleteCampaignTest()[pri:0, instance:com.crm.Campaign.CampaignTest@28d25987]" name="deleteCampaignTest" class="com.crm.Campaign.CampaignTest"/>
+        <method signature="CampaignTest.modifyCampaignTest()[pri:0, instance:com.crm.Campaign.CampaignTest@28d25987]" name="modifyCampaignTest" class="com.crm.Campaign.CampaignTest"/>
+        <method signature="ContactTest.deleteCustomerTest()[pri:0, instance:com.crm.practise.ContactTest@4501b7af]" name="deleteCustomerTest" class="com.crm.practise.ContactTest"/>
+        <method signature="ContactTest.modifyCustomerTest()[pri:0, instance:com.crm.practise.ContactTest@4501b7af]" name="modifyCustomerTest" class="com.crm.practise.ContactTest"/>
+        <method signature="OrganizationTest.deleteOrgTest()[pri:0, instance:com.crm.practise.OrganizationTest@59fa1d9b]" name="deleteOrgTest" class="com.crm.practise.OrganizationTest"/>
+        <method signature="OrganizationTest.modifyOrgTest()[pri:0, instance:com.crm.practise.OrganizationTest@59fa1d9b]" name="modifyOrgTest" class="com.crm.practise.OrganizationTest"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test name="Test" duration-ms="100" started-at="2022-05-10T16:01:09 IST" finished-at="2022-05-10T16:01:09 IST">
+      <class name="com.crm.practise.OrganizationTest">
+        <test-method status="PASS" signature="createOrgTest()[pri:0, instance:com.crm.practise.OrganizationTest@59fa1d9b]" name="createOrgTest" duration-ms="7" started-at="2022-05-10T16:01:09 IST" finished-at="2022-05-10T16:01:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgTest -->
+        <test-method status="PASS" signature="deleteOrgTest()[pri:0, instance:com.crm.practise.OrganizationTest@59fa1d9b]" name="deleteOrgTest" duration-ms="1" started-at="2022-05-10T16:01:09 IST" finished-at="2022-05-10T16:01:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteOrgTest -->
+        <test-method status="PASS" signature="modifyOrgTest()[pri:0, instance:com.crm.practise.OrganizationTest@59fa1d9b]" name="modifyOrgTest" duration-ms="0" started-at="2022-05-10T16:01:09 IST" finished-at="2022-05-10T16:01:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyOrgTest -->
+      </class> <!-- com.crm.practise.OrganizationTest -->
+      <class name="com.crm.Campaign.CampaignTest">
+        <test-method status="PASS" signature="createCampaignTest()[pri:0, instance:com.crm.Campaign.CampaignTest@28d25987]" name="createCampaignTest" duration-ms="0" started-at="2022-05-10T16:01:09 IST" finished-at="2022-05-10T16:01:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCampaignTest -->
+        <test-method status="PASS" signature="deleteCampaignTest()[pri:0, instance:com.crm.Campaign.CampaignTest@28d25987]" name="deleteCampaignTest" duration-ms="0" started-at="2022-05-10T16:01:09 IST" finished-at="2022-05-10T16:01:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCampaignTest -->
+        <test-method status="PASS" signature="modifyCampaignTest()[pri:0, instance:com.crm.Campaign.CampaignTest@28d25987]" name="modifyCampaignTest" duration-ms="1" started-at="2022-05-10T16:01:09 IST" finished-at="2022-05-10T16:01:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyCampaignTest -->
+      </class> <!-- com.crm.Campaign.CampaignTest -->
+      <class name="com.crm.practise.ContactTest">
+        <test-method status="PASS" signature="createCustomerTest()[pri:0, instance:com.crm.practise.ContactTest@4501b7af]" name="createCustomerTest" duration-ms="1" started-at="2022-05-10T16:01:09 IST" finished-at="2022-05-10T16:01:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomerTest -->
+        <test-method status="PASS" signature="deleteCustomerTest()[pri:0, instance:com.crm.practise.ContactTest@4501b7af]" name="deleteCustomerTest" duration-ms="0" started-at="2022-05-10T16:01:09 IST" finished-at="2022-05-10T16:01:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomerTest -->
+        <test-method status="PASS" signature="modifyCustomerTest()[pri:0, instance:com.crm.practise.ContactTest@4501b7af]" name="modifyCustomerTest" duration-ms="0" started-at="2022-05-10T16:01:09 IST" finished-at="2022-05-10T16:01:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyCustomerTest -->
+      </class> <!-- com.crm.practise.ContactTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
