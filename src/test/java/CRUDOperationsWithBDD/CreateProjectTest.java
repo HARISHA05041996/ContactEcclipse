@@ -5,7 +5,7 @@ import static io.restassured.RestAssured.*;
 import org.testng.annotations.Test;
 
 import io.restassured.http.ContentType;
-
+import static io.restassured.RestAssured.*;
 
 public class CreateProjectTest {
 	@Test
@@ -13,7 +13,7 @@ public class CreateProjectTest {
 	{
 		JSONObject jObject= new JSONObject();
 		jObject.put("createdBy", "Harish");
-		jObject.put("projectName", "zoho1");
+		jObject.put("projectName", "zoho1233");
 		jObject.put("status", "Created");
 		jObject.put("teamSize", 10);
 		
